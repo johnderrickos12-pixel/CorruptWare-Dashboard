@@ -74,7 +74,7 @@ const SettingsPanel = ({ mode, onConnectionChange }: SettingsPanelProps) => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* Token Configuration */}
       <Card className="bg-card border-primary/30">
         <CardHeader>

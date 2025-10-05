@@ -37,7 +37,7 @@ const ServerControlPanel = ({ mode }: ServerControlPanelProps) => {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* TOS Warning for Client Mode */}
       {mode === "client" && (
         <Alert className="border-destructive bg-destructive/10">

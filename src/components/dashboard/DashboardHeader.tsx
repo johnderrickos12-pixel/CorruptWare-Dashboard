@@ -18,10 +18,10 @@ const DashboardHeader = ({ mode, onModeChange, speed, onSpeedChange, isConnected
   const modeName = mode === "bot" ? "Discord Bot" : "Client Mode";
 
   return (
-    <header className="bg-card border-b border-border p-4 sticky top-0 z-50 backdrop-blur-sm bg-card/80">
-      <div className="flex items-center justify-between gap-4">
+    <header className="bg-card border-b border-border px-6 py-4 sticky top-0 z-50 backdrop-blur-sm bg-card/80">
+      <div className="flex items-center justify-between gap-6">
         {/* Left: Logo & Mode */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6">
           <Button
             variant="ghost"
             size="icon"

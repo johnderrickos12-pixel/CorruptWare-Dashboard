@@ -23,7 +23,7 @@ const CommandsPanel = ({ mode }: CommandsPanelProps) => {
     : categories;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* Search & Filter */}
       <Card className="bg-card border-primary/30">
         <CardHeader>
@@ -69,8 +69,8 @@ const CommandsPanel = ({ mode }: CommandsPanelProps) => {
       </Card>
 
       {/* Command Categories */}
-      <ScrollArea className="h-[600px]">
-        <div className="space-y-4">
+      <ScrollArea className="h-[600px] pr-4">
+        <div className="space-y-6">
           {filteredCategories.map((category) => (
             <Card key={category.id} className="bg-card border-border">
               <CardHeader>

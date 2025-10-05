@@ -16,9 +16,9 @@ const LandingPage = ({ onModeSelect }: LandingPageProps) => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center space-y-12 px-4">
+      <div className="relative z-10 text-center space-y-16 px-8 max-w-7xl mx-auto">
         {/* Title */}
-        <div className="space-y-4">
+        <div className="space-y-6">
           <h1 className="text-7xl font-bold tracking-tighter">
             <span className="holographic">CORRUPT</span>
             <span className="text-primary">-</span>
@@ -35,7 +35,7 @@ const LandingPage = ({ onModeSelect }: LandingPageProps) => {
         </div>
 
         {/* Mode Selection */}
-        <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-12 justify-center items-center mt-8">
           {/* Discord Bot Mode */}
           <button
             onClick={() => onModeSelect("bot")}

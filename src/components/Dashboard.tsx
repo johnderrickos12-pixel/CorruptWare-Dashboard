@@ -29,9 +29,9 @@ const Dashboard = ({ mode, onModeChange }: DashboardProps) => {
 
       <div className="flex-1 flex overflow-hidden">
         {/* Main Content */}
-        <div className="flex-1 overflow-y-auto p-6">
+        <div className="flex-1 overflow-y-auto p-8">
           <Tabs defaultValue="commands" className="w-full">
-            <TabsList className="grid w-full grid-cols-4 bg-card border border-border">
+            <TabsList className="grid w-full grid-cols-4 bg-card border border-border mb-8 p-1">
               <TabsTrigger value="commands" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
                 Commands
               </TabsTrigger>

@@ -19,7 +19,7 @@ const StatusPanel = ({ mode, isConnected }: StatusPanelProps) => {
   ];
 
   return (
-    <div className="w-80 bg-card border-l border-border p-4 space-y-4">
+    <div className="w-80 bg-card border-l border-border p-6 space-y-6">
       {/* Status Overview */}
       <Card className="bg-muted/30 border-primary/30">
         <CardHeader className="pb-3">
